@@ -1,0 +1,14 @@
+name: Hello MultiVerse!
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  hello_multiverse_job:
+    runs-on: ubuntu-20.04
+    steps:
+      - name: Say Hello
+        run: |
+          echo "Hello MultiVerse!"
