@@ -12,3 +12,9 @@ jobs:
       - name: Say Hello
         run: |
           echo "Hello MultiVerse!"
+
+        run: |
+          date
+
+        run: |
+          ls -F -a -s
