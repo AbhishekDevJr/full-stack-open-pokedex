@@ -13,8 +13,10 @@ jobs:
         run: |
           echo "Hello MultiVerse!"
 
+      - name: Current Date & Time
         run: |
           date
 
+      - name: Directory Information
         run: |
           ls -F -a -s
